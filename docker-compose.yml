@@ -1,0 +1,5 @@
+version: '2.2'
+services:
+  base:
+    image: node:8.9
+    user: node
