@@ -16,7 +16,7 @@ services:
         condition: on-failure
 
   db:
-    image: "postgres:9.6.0@sha256:e22a0fd554c62f7a5fb589bce5812ce380edc5ea99f6065f0cd9684ecec4fb12"
+    image: "postgres:9.6.11@sha256:3c848f2cc160bb2ddf68e5feab81c35c6754e2f0c886708b9e8a204697970818"
     volumes:
       - db-data:/var/lib/postgresql/data
     networks:
